@@ -1,0 +1,1235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar{
+  width: 1520px;
+  height: 90px;
+  gap: 0px;
+  opacity: 0px;
+  background-color:gainsboro;
+  border-block-end-style:inset;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  
+  }
+  .navdiv{
+      height: 90px;
+      width:auto;
+      display:flex ;
+      justify-content: end;
+      align-items: end;
+  }
+  .logo{
+      /* logo 1 */
+  position: absolute;
+  width: 311px;
+  height: 49px;
+  left: 83px;
+  top: 20px;
+  }
+  
+  .navdiv .btn {
+      background-color: DodgerBlue; /* Blue background */
+      border-radius: 100%; /* Remove borders */
+      border: none;
+      color: white; /* White text */
+      padding: 12px 15px; 
+        /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+      width: 30px;
+      height: 30px;
+     margin-left: 1px;
+     margin-right: 20px;
+     margin-bottom: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+  /* ------------------------------------------------------------------- */
+    .leftbox{
+      width: 10%;
+      height: 696px;
+      border-right:inset;
+      border:inset;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      box-shadow: 1px 4px 1px 1px #00000040;
+      background-color: white;
+  
+    }
+    .leftbox .forbutton{
+      height: 50px;
+      border-top-right-radius:  25px; 
+      background-color: black;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content:right;
+       align-items: center;
+       
+    }
+  
+   .forbutton .btn{
+      border-radius: 100%;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      /* width: 100px; */
+     }
+  
+   .leftbox .box1{
+      height: 15px;
+      width: 20px;
+      margin: 20px ;
+      margin-top: 30px;
+      margin-left: 40px;
+      padding: 30px;
+      border:2px solid blue ;
+      /* background-color: aqua; */
+      border-radius: 20px;
+      font-size: 40px;
+      font-family: "Montserrat", sans-serif;
+      color:blue;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+  /* ----------------------------------------------------------- */
+   
+  /* ----------------------------------------------------------- */
+  
+   .leftboxexpand{
+    width: 25%;
+    height: 700px;
+    border-right:inset;
+    border:none;
+    /* border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px; */
+    border-radius:25px;
+    box-shadow:  1px 4px 1px 1px  #00000040;
+   /* float: right; */
+   z-index: 10;   
+   /* this hepls to put the box over the leftbox */
+   position:absolute;
+   top: 10px;
+   
+   display: none;
+   margin-top: 83px;
+   margin-left: px;
+   background-color: white;
+  }
+  .leftboxexpand .forbutton1{
+    height: 52px;
+    border-top-right-radius:25px; 
+    background-color: black;
+    border-bottom: 2px solid black;
+    display: flex;
+    /* justify-content:right; */
+     align-items: center;
+     color: white;
+  }
+  
+  .forbutton1 .btn{
+    border-radius: 100%;
+    margin-left:200px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    /* width: 100px; */
+    }
+    .forbutton1 h3{
+     margin-left: 10px;
+    } 
+    .leftboxexpand .box1{
+      /* height: 15px; */
+      /* width: 20px; */
+      /* margin: 20px ; */
+      margin-top: 30px;
+      
+      font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+      color:black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    } 
+  
+  
+  
+   .forbutton .btn:hover .leftboxexpand{
+    display: block;
+  }
+  .leftbox :hover .leftboxexpand{
+    display: block;
+  }
+  
+  
+    /* -------------------------------------------------------- */
+  
+  
+  
+  
+  .middledivision{
+      /* width: 100px;
+      height:100px;
+      float: left;
+      background-color:yellow;
+      margin: 10px; */
+  
+       
+        height: 100%;
+        width: 70%;
+        position:absolute;
+        z-index: 1;
+        top: 90px;
+        /* overflow-x: hidden; */
+        padding-top: 20px;
+        margin-left: 245px;
+      
+    }
+  
+    .Division1{
+     
+      /* height:250px; */
+      /* background-color: aqua; */
+  
+    }
+  
+     .H1{
+      color: blue;
+      font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 50%;
+    position: relative;
+     }
+    .btn3{
+      
+           position:absolute;
+           top: 28px;
+           right: 2%;
+           background-color:blue;
+      color: azure;
+      height:40px;
+      width: 125px;
+      border-radius: 15px;
+      font-family: "Poppins", sans-serif;
+      border: solid blue 2px;
+      cursor: pointer;
+      
+    }
+    .btn3:hover {
+      background-color: RoyalBlue;
+    }
+    
+  
+    /* .box12{
+      width: 50%;
+    .btn2{
+      background-color:blue;
+      color: azure;
+      height:40px;
+      width: 125px;
+      border-radius: 15px;
+      font-family: "Poppins", sans-serif;
+      border: solid blue 2px;
+    }
+  } */
+  
+  
+    .box2{
+      width: 99%;
+      background-color: gainsboro;
+      height: 150px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    .box2 .box21{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        font-family: "Poppins", sans-serif;
+      
+        h2{
+          font-family: "Poppins", sans-serif;
+       font-style:normal;
+       font-weight:bold;
+        }
+  
+        h4{
+        font-family: "Poppins", sans-serif;
+       font-style:normal;
+       font-weight:400;
+       color: black;
+       margin-top: 5px;
+       }
+        
+      }
+  
+      .Division2{
+        margin-top: 60px;
+        /* background-color: pink; */
+        display:flex;
+      }
+        
+      .Division2.Split {
+        height: 100%;
+        width: 50%;
+        position:absolute;
+        z-index: 1;
+        top: 100;
+        overflow-x: hidden;
+       
+      }
+      .left{
+        margin: 20px;
+        margin-right: 40px;
+        left: 0;
+    background-color:white;
+    /* border: 2px solid black; */
+       height: 580px;
+       width: 480px;
+       border-radius: 20px;
+       box-shadow: 4px 0px 4px 4px #00000040;
+      }
+  
+      .boxblack{
+        height: 50px;
+        width: 480px;
+        border-bottom: 2px solid black;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: black;
+        color: white;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      cursor: pointer;    
+    }
+    #i1:hover{
+          background-color: blue;
+    }
+    #h2{
+      width: 70%;
+      margin-left: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif ;
+        /* font-size: medium; */
+        font-weight: lighter;
+    }
+    #i1{
+      width: 22px;
+      height: 22px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 150px;
+        font-family: "Poppins", sans-serif ;
+        font-size: medium;
+        margin: 10px;
+        margin-left: 30px;
+        color: black;
+    }
+  
+    .desbox1{
+      /* Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach */
+  
+  position:absolute;
+  width: 460px;
+  height: 86px;
+  font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  /* background-color: aqua; */
+  
+    }
+  
+  
+     .photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+      width: 420px;
+      height: 498px;
+    
+      box-sizing: inherit;
+      text-align: center;
+      
+    }
+  
+    #img{
+      
+      flex: 33.33%;
+      width:100%;
+      height: 291px;
+    }
+  
+    .right {
+      right: 0;
+      background-color: red;
+    margin: 20px;
+      margin-right: 40px;
+  background-color:white;
+  /* border: 2px solid black; */
+     height: 580px;
+     width: 480px;
+     border-radius: 20px;
+     float:right;
+     box-shadow: 4px 0px 4px 4px #00000040;
+  }
+  
+  .boxblack2{
+  height: 50px;
+  width: 480px;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;  
+  }
+  #i2:hover{
+  background-color:blue;
+  }
+  #h21{
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif ;
+  /* font-size: medium; */
+  font-weight: lighter;
+  }
+  #i2{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  font-family: "Poppins", sans-serif ;
+  font-size: medium;
+  margin: 10px;
+  margin-left: 30px;
+  color: black;
+  }
+  
+  
+  .desbox2{
+  /* Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach */
+  
+  position:absolute;
+  width: 460px;
+  height: 86px;
+  font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  /* background-color: aqua; */
+  
+  }
+  .Threadcontainer{
+  margin-top: 107px;
+  height: 420px;
+  width: 480px;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius:20px ;
+  }
+  
+  .threadA{
+  width: 466px;
+  height: 20px;
+  margin-top: 107px;
+  padding: 7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+   /* background-color: rgb(255, 244, 251); */
+  border-top:2px solid rgba(0, 0, 0, 0.39) ;
+  position: relative; /* Makes threadA the reference point for absolute positioning */
+  z-index:1;
+  }
+  
+  #arrow{
+   
+  background-color:white;
+   border: none;
+  
+  }
+  
+  #A{
+  margin-left: 40px;
+  font-family: sans-serif;
+  font-style: 100;
+  font-size: 14px;
+  
+  }
+  #arrow:hover{
+  /* background-color:powderblue; */
+  }
+  
+  
+  .Threadcontainer .dropdown{
+      width: 480px;
+      position:absolute; 
+      top: 0; 
+      left: 0; 
+      z-index: 2; 
+      background-color: rgba(255, 255, 255, 0.9);
+      display:block;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius:20px ;
+     
+  }
+  .threadA88{
+      width: 464px;
+      height: 20px;
+      /* margin-left:px; */
+      padding: 7px;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+       /* background-color: rgb(255, 244, 251); */
+      border-top:2px solid rgba(0, 0, 0, 0.39) ;
+    }
+    
+    .threadA88 #arrow{
+        border: none;
+        background-color:rgb(255, 244, 251) ;
+    }
+  
+    #A45{
+      margin-left:40px;
+      font-family: sans-serif;
+      font-style: 100;
+      font-size: 14px;
+      /* margin-top: -35px; */
+    }
+    
+      #arrow:hover{
+          background-color:rgb(255, 244, 251) ;
+      }
+      .threadA88,.threadA:hover{
+        background-color:rgb(255, 244, 251) ;
+      }
+      
+   .thread1{
+  margin: 20px;
+  margin-left: 40px;
+  border: 2px solid gainsboro;
+  height: 80px;
+  border-radius: 10px;
+  width: 190px;
+  float: left;
+  background-color: gainsboro;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-size:12px ;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  .interpretation{
+  float: left;
+  margin: 20px;
+  margin-left: 15px;
+  border: 2px solid gainsboro;
+  height: 80px;
+  border-radius: 10px;
+  width: 190px; 
+  background-color: gainsboro;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  
+  }
+  .group1588{
+  margin-left:80px;
+  width: 117.49px;
+  height: 40px;
+  margin-top: 10px;
+  float: left;
+  
+  }
+  
+  
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  top:335px;
+  }
+  .group1732{
+  /* Group 1732 */
+  
+   float: left;
+  width: 91px;
+  height: 32px;
+  margin-left: 20px;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  }
+  
+  .group1733{
+  float:left;
+  width: 80px;
+  height: 32px;
+  margin-left: 35px;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  }
+  
+  .threadmid{
+  
+  }
+  .Alast{
+  margin-top: 182px;
+  padding: 5px;
+  }
+  #btn5{
+  margin-top: 20px;
+  margin-left: 20px;
+  width:110px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:"Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  }
+  
+  
+  .group1600{
+  margin: 20px;
+  margin-left: 20px;
+  border: 2px solid gainsboro;
+  height: 100px;
+  border-radius: 10px;
+  width: 430px;
+  float: left;
+  background-color:#e9e3e340;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-size:12px ;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  }  
+  
+  /* dropdon content ----------------------------------------------------------------------------------------------------------- */
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------------ */
+  
+  
+  .Division3{
+    margin-top: 20px;
+    /* background-color:greenyellow;  */
+     display: flex;
+  }
+    
+  .Division3.Split1{
+    height: 100%;
+    width: 50%;
+    position:absolute;
+    z-index: 1;
+    top: 100;
+    overflow-x: hidden;
+   
+  }
+  .left1{
+    margin: 20px;
+    margin-right: 40px;
+    left: 0;
+  background-color:white;
+  /* border: 2px solid black; */
+   height: 580px;
+   width: 480px;
+   border-radius: 20px;
+   box-shadow: 4px 0px 4px 4px #00000040;
+  }
+  
+  .boxblack3{
+    height: 50px;
+    width: 480px;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;    
+  }
+  #i1:hover{
+      background-color: bisque;
+  }
+  #h2{
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif ;
+    /* font-size: medium; */
+    font-weight: lighter;
+  }
+  #i1{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+    font-family: "Poppins", sans-serif ;
+    font-size: medium;
+    margin: 10px;
+    margin-left: 30px;
+    color: black;
+  }
+  
+  .desbox3{
+  /* Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach */
+  
+  position:absolute;
+  width: 460px;
+  height: 86px;
+  font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  padding: 10px;
+  border-bottom: 2px solid #00000040;
+  /* background-color: aqua; */
+  
+  }
+  
+  .group1878{
+  margin-top:140px ;
+  font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  }
+  
+  .group1880{
+    width: 422px;
+  height: 43px;
+  /* background-color:aqua; */
+  
+  margin-left: 30px;
+  border-radius: 5px ;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-top :1px  solid whitesmoke;
+  }
+  
+  .group1882{
+  width: 422px;
+  height: 82px;
+  background-color:white;
+  margin-left: 30px;
+  border-radius: 5px 5px 0px 0px ;
+  box-shadow:0px 15px 15px 0px #00000040;
+  border-top :1px  solid whitesmoke;
+   
+  #btn{
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: #00000040;
+    border: none;
+  }
+  #btn:hover{
+   /* background-color: aquamarine; */
+   border-bottom:2px solid #00000040;
+   
+  }
+  
+  #btn2{
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: #00000040;
+    border: none;
+  }
+  #btn2:hover{
+   /* background-color: aquamarine; */
+   border:2px solid blue;
+   background-color: powderblue;
+   
+  }
+  
+  }
+  
+  .group2320{
+    margin-top: 2px;
+    width: 422px;
+    height: 142px;
+    background-color:white;
+    margin-left: 30px;
+    border-radius: 0px 0px 5px  5px; 
+    box-shadow:0px 15px 15px 0px #00000040;
+  }
+  .group1878 h3{
+     margin-top:35px;
+     margin-left: 30px;
+     font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  }
+  
+  
+  
+  /* right of the second boxbottom */
+  
+  .right1 {
+    right: 0;
+    background-color: red;
+  margin: 20px;
+    margin-right: 40px;
+  background-color:white;
+  /* border: 2px solid black; */
+   height: 580px;
+   width: 480px;
+   border-radius: 20px;
+   float:right;
+   box-shadow: 4px 0px 4px 4px #00000040;
+  }
+  
+  .boxblack4{
+  height: 50px;
+  width: 480px;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;  
+  }
+  #i2:hover{
+  background-color: bisque;
+  }
+  #h21{
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif ;
+  /* font-size: medium; */
+  font-weight: lighter;
+  }
+  #i2{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  font-family: "Poppins", sans-serif ;
+  font-size: medium;
+  margin: 10px;
+  margin-left: 30px;
+  color: black;
+  }
+  
+  
+  .desbox4{
+  /* Description: Story of Alignment Scope of Agility Specific Accountable Staggering Approach */
+  
+  position:absolute;
+  width: 460px;
+  height: 70px;
+  font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  /* background-color: aqua; */
+  
+  }
+  .group2323{
+  margin-top: 90px;
+  
+  }
+  .group2324{
+   position: relative;
+   width: 100%;
+  }
+  
+  .Introduction{
+    width: 434px;
+    height: 30px;
+    margin-left:20px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border-bottom:2px solid rgba(0, 0, 0, 0.39) ;
+    /* background-color: #57555518; */
+    font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+   
+  
+  
+      position: relative;
+      z-index: 1; /* Lower z-index to place it beneath the Introduction */
+     /* Adjust this value to position dropdown below Introduction */
+      /* Additional styling as needed */
+  
+  }
+  
+  .group2324 #btn{
+     border: none;
+    background-color:white;
+    float: left;
+  }
+  .group2324 #AI{
+    margin-left:20px;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size:16px;
+    letter: spacing 1px;;
+  }
+  
+  .group2324 .Des1{
+    width: 445px;
+    height: 70px;
+    margin-left: 20px;
+    font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size:15px;
+  font-weight: 300;
+  /* border-top: 1px solid #00000040 */
+   background-color: white;
+  }
+  
+  .Des1 #btn{
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: grey;
+    margin-left: 377px;
+  }
+  .Des1 #btn:hover{
+    border-bottom: 2px solid blue;
+  }
+  .dropdown1{
+    position: absolute; /* Absolutely positioned within group2324 */
+      top: 0; /* Align to the top */
+      left: 0; /* Align to the left */
+      z-index: 1; /* Higher z-index to ensure it's above dropdown1 */
+      background-color: white; /* Background color to cover elements below */
+       /* Full width to match the dropdown1 box */
+           /* Padding for some space around content */
+      width:100%;
+     margin-top: 1px;
+     height: 127px;
+  }
+  .Introduction1{
+    width: 434px;
+    height: 29px;
+     margin-left:20px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border-bottom:2px solid rgba(0, 0, 0, 0.39) ;
+    background-color: #57555518;
+    font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  /* position: relative; */
+  }
+  /* ---------------------------------------------------------- */
+  .group2327{
+  
+   margin-top: 30px;
+   margin-left: 20px;
+   position: relative;
+  
+  }
+  
+  .group2327 .threadA11{
+    margin-top: 90px;
+    width: 430px;
+    height:35px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border:2px solid rgba(0, 0, 0, 0.39) ;
+  
+    position: relative;
+    z-index: 1; /* Lower z-index to place it beneath the Introduction */
+   /* Adjust this value to position dropdown below Introduction */
+    /* Additional styling as needed */
+  
+    
+  }
+  
+  #arrow1{
+     
+     background-color: white;
+    /* background-color: blueviolet; */
+     border: none;
+  
+  }
+  #A1{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-style: 100;
+    font-size: 14px;
+  }
+  .group2327 #arrow1:hover{
+    border-color: aliceblue;
+  }
+  
+  .dropdown2{
+  
+  position: absolute; /* Absolutely positioned within group2324 */
+      top: 0; /* Align to the top */
+      left: 0; /* Align to the left */
+      z-index: 2; /* Higher z-index to ensure it's above dropdown1 */
+      background-color: white; /* Background color to cover elements below */
+       /* Full width to match the dropdown1 box */
+           /* Padding for some space around content */
+      width:100%;
+  }
+  
+  .threadA112{
+    width: 430px;
+    height:35px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border:2px solid rgba(0, 0, 0, 0.39) ;
+  }
+  
+  
+  .Des21{
+    margin-top: 20px;
+    width: 439px;
+    height: 90px;
+    margin-left: 20px;
+    font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  /* border: 2px solid grey; */
+  }
+  
+  .Des21 #btn{ 
+    border: none;
+    background-color: white;
+    color: grey;
+    margin-left: 360px;
+  }
+  .Des21 #btn:hover{
+    border-bottom: 2px solid blue;
+  }
+  /* -------------------------------------------------------- */
+  .example {
+    margin-left: 70px;
+    margin-top: 125px;
+    position: relative;
+  }
+  .threadA1{
+    /* margin-top: 20px; */
+    width: 380px;
+    height: 35px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border:2px solid rgba(0, 0, 0, 0.39) ;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  #A78 {
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+    color: black; /* Initial text color */
+    /* transition: color 0.3s ease, background-color 0.3s ease; Smooth transition for the hover effect */
+    margin-left: 20px;
+    font-family:"Poppins", sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  
+  #A78:hover {
+    color:blue; /* Text color on hover */
+    border-bottom:2px solid  #00000040; /* Background color on hover (adjust to your preference) */
+  }
+  
+  
+  .Des3{
+    width: 439px;
+    height: 40px;
+    margin-left: 20px;
+    font-family:"Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  z-index: 2;
+  top:0;
+  left:0;
+  margin-top: 59px;
+  
+  /* border: 2px solid grey; */
+  }
+  
+  /* ------------------------------------------------------------- */
+  
+  .rightbox{
+    width: 10%;
+    height: 360px;
+    border-right:inset;
+    border:inset;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0px 1px 1px 0px #00000040;
+    float :right;
+    left: 95%;
+    position: absolute;
+    top: 100px;
+  }
+  .rightbox .forbutton{
+    width: 60px;
+    height: 100%;
+    border-top-left-radius:  25px; 
+    border-bottom-left-radius:  25px; 
+    background-color: black;
+    border-bottom: 2px solid black; 
+  }
+  
+  .forbutton .btn1{
+    margin-top:10px;
+   border: none;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    /* width: 100px; */
+    color: white;
+    font-size:35px;
+    
+   }
+   .btn1:hover{
+    color:blue;
+  }
+   .forbutton h3{
+    margin-top: 20px;
+    letter-spacing:4px;
+    line-height: 1px;
+    color: white;
+    /* word-spacing: 1px; */
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: 30px;
+   }
+  
+  .rightbox .box1{
+    height: 15px;
+    width: 20px;
+    margin: 20px ;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 30px;
+    border:2px solid blue ;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color:blue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .circles{
+      margin-top: 650px;
+    float: right;
+    
+    #btn{
+       border:2px solid blue;
+       width: 100px;
+       height: 100px;
+       border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      color: white;
+      background-color: blue;
+  
+    }
+  
+    #btn:hover{
+      background-color: powderblue;
+      color: black;
+    }
+  }
+  .maincontainer{
+    /* display: flex; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
